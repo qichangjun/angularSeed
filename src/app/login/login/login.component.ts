@@ -26,9 +26,9 @@ export class LoginComponent implements OnInit {
   }
 
   async login(){
-    let res = await this._LoginService.login(this.loginInfo)
+    // let res = await this._LoginService.login(this.loginInfo)
     Cookies.set('current_user_token', 
-    {accessToken:res})
+    {accessToken:123})
     this.router.navigate(['/main']);
   }
 
