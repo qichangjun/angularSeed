@@ -14,7 +14,6 @@ export class CustomRequestOptions extends BaseRequestOptions {
   });
 }
 
-
 @NgModule({
   declarations: [
     AppComponent
@@ -24,9 +23,7 @@ export class CustomRequestOptions extends BaseRequestOptions {
     CoreModule.forRoot(CustomRequestOptions),
     AppRouteModule
   ],
-  providers: [
-   
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
